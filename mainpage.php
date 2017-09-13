@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-<?php include "nav.php"; ?>
+<?php include "header.php"; ?>
 <div class="container">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -19,16 +19,15 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="Images/83d982191977471168c6eea7b1645b6b.jpg" alt="Image1" style="width:100%;">
+                <img src="Images/83d982191977471168c6eea7b1645b6b.jpg" alt="Sandwich1">
             </div>
 
             <div class="item">
-                <img src="Images/13743994_586334051549234_864750481_n.jpg" alt="2Image" style="width:100%;">
+                <img src="Images/13743994_586334051549234_864750481_n.jpg" alt="Sandwich2">
             </div>
 
             <div class="item">
-                <img src="Images/AAEAAQAAAAAAAAekAAAAJDE5ZjY0ZTAxLTU0ZWMtNGJiNi04MmY5LTc2Y2NhMDA5OGExZg.jpg"
-                     alt="Image3" style="width:100%;">
+                <img src="Images/AAEAAQAAAAAAAAekAAAAJDE5ZjY0ZTAxLTU0ZWMtNGJiNi04MmY5LTc2Y2NhMDA5OGExZg.jpg" alt="Sandwich3">
             </div>
         </div>
 
@@ -44,7 +43,7 @@
     </div>
 </div>
 <div class="container">
-    <section class="row">
+    <section id="concept" class="row">
         <div class="col-xs-12 text-center">
             <h2>Le concept</h2>
         </div>
@@ -68,7 +67,7 @@
         </div>
     </section>
     <hr>
-    <section class="row text-center">
+    <section id="menu" class="row text-center">
         <div class="col-xs-12">
             <h2>Les Menus</h2>
             <p>Pour petits et grands, vous retrouverez ces 5 burgers dans tous nos restaurants. Accompagnés de frites ou
@@ -103,7 +102,7 @@
     <hr>
     <?php include "map.php"; ?>
     <hr>
-    <section>
+    <section id="notreequipe">
         <div class="row">
 
 
@@ -160,7 +159,8 @@
     <hr>
     <?php include "footer.php"; ?>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://ajax.goote Biogleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script  type="text/javascript" src="js.js"></script>
 </body>
 </html>

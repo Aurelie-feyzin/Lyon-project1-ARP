@@ -2,7 +2,7 @@
     <div class="row text-center">
         <div class="col-xs-4">
 
-            <address>
+            <address id="contact">
                 <strong>Bug Burger</strong><br>
                 <a href="mailto:#"> contact@bugburger.com</a><br>
                 <abbr title="Télephone">Tel:</abbr> : 06 44 69 89 00

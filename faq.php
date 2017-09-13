@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>BugBurger : FAQ </title>
@@ -10,9 +10,7 @@
 
 </nav>
 <header>
-    <nav>
-        <img src="http://via.placeholder.com/800x50" class="img-responsive" alt="Sandwich" width="800" height="50">
-    </nav>
+    <?php include "header.php"; ?>
     <div class="container">
         <div class="jumbotron">
             <h1>FAQ</h1>
