@@ -1,9 +1,13 @@
+<?php
+$list_burgers = include "list_burgers.php";
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>BugBurgers</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <?php include "header.php"; ?>
@@ -27,7 +31,8 @@
             </div>
 
             <div class="item">
-                <img src="Images/AAEAAQAAAAAAAAekAAAAJDE5ZjY0ZTAxLTU0ZWMtNGJiNi04MmY5LTc2Y2NhMDA5OGExZg.jpg" alt="Sandwich3">
+                <img src="Images/AAEAAQAAAAAAAAekAAAAJDE5ZjY0ZTAxLTU0ZWMtNGJiNi04MmY5LTc2Y2NhMDA5OGExZg.jpg"
+                     alt="Sandwich3">
             </div>
         </div>
 
@@ -73,31 +78,16 @@
             <p>Pour petits et grands, vous retrouverez ces 5 burgers dans tous nos restaurants. Accompagnés de frites ou
                 de Coleslaw.</p>
         </div>
-        <div class="col-xs-12 col-md-4 text-center">
-            <img src="http://via.placeholder.com/250x250" class="img-circle img-responsive center-block" alt="Sandwich"
-                 width="250" height="250">
-            <p class="text-center">Le classic</p>
-        </div>
-        <div class="col-xs-12 col-md-4 text-center">
-            <img src="http://via.placeholder.com/250x250" class="img-circle img-responsive center-block" alt="Sandwich"
-                 width="250" height="250">
-            <p class="text-center">Le cheeseburger</p>
-        </div>
-        <div class="col-xs-12 col-md-4 text-center">
-            <img src="http://via.placeholder.com/250x250" class="img-circle img-responsive center-block" alt="Sandwich"
-                 width="250" height="250">
-            <p class="text-center">Le WormCheese</p>
-        </div>
-        <div class="col-xs-12 col-md-4 col-md-offset-2 text-center">
-            <img src="http://via.placeholder.com/250x250" class="img-circle img-responsive center-block" alt="Sandwich"
-                 width="250" height="250">
-            <p class="text-center">L’avocadoWorm</p>
-        </div>
-        <div class="col-xs-12 col-md-4 text-center">
-            <img src="http://via.placeholder.com/250x250" class="img-circle img-responsive center-block" alt="Sandwich"
-                 width="250" height="250">
-            <p class="text-center">Le burger du mois</p>
-        </div>
+        <?php foreach ($list_burgers as $key => $burger): ?>
+            <div class="col-xs-12 col-md-4 text-center">
+                <div class="img_menu_burger img-responsive center-block"
+                     alt="Sandwich"
+                     width="250" height="250">
+                    <h2 class="burger_name text-center"><?php echo $burger['burger_name']; ?></h2>
+                    <p class="ingredients text-center"><?php echo $burger['ingredients']; ?></p>
+                </div>
+            </div>
+        <?php endforeach; ?>
     </section>
     <hr>
     <?php include "map.php"; ?>
@@ -161,6 +151,6 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script  type="text/javascript" src="js.js"></script>
+<script type="text/javascript" src="js.js"></script>
 </body>
 </html>
