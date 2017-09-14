@@ -27,7 +27,8 @@
             </div>
 
             <div class="item">
-                <img src="Images/AAEAAQAAAAAAAAekAAAAJDE5ZjY0ZTAxLTU0ZWMtNGJiNi04MmY5LTc2Y2NhMDA5OGExZg.jpg" alt="Sandwich3">
+                <img src="Images/AAEAAQAAAAAAAAekAAAAJDE5ZjY0ZTAxLTU0ZWMtNGJiNi04MmY5LTc2Y2NhMDA5OGExZg.jpg"
+                     alt="Sandwich3">
             </div>
         </div>
 
@@ -43,28 +44,54 @@
     </div>
 </div>
 <div class="container">
-    <section id="concept" class="row">
-        <div class="col-xs-12 text-center">
-            <h2>Le concept</h2>
+    <section id="concept">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Le concept</h2>
+            </div>
         </div>
-        <div class="col-xs-12 text-justify">
-            <p>Bienvenue sur BugBurger, les premiers restaurants français vous offrant l’opportunité de déguster des
-                repas à base d’insectes tout en vous assurant des plats savoureux et des produits bio de qualité.</p>
-            <p>Aussi positive pour l’environnement que bénéfique pour la santé, la consommation de viande à base
-                d’insectes est pratiquée dans de nombreux pays depuis des centaines d’années. Une fois cuisinée et
-                assemblée en forme de steak, cette viande exceptionnellement riche en protéines et pauvre en matières
-                grasses possède un goût très proche de celle du boeuf. Ainsi, à quantité équivalente, un steak d’insecte
-                possède 3x plus de protéines pour 2x moins de matières grasse qu’un steak de boeuf. </p>
-            <p>D’un point de vue environnemental, la production de 100g de viande de boeuf produit environ 2,81 kg de
-                CO² alors que le même steak d’insecte ne produit que 0,45 Kg de CO² sans compter qu’il ne produit pas de
-                méthane. La consommation d’insecte représente l’avenir de notre alimentation et de notre planète, c’est
-                pourquoi BioBurger vous propose des Burgers d’insectes savoureux, mis au point par nos meilleurs chefs
-                étoilés.</p>
-            <p>Notre site de production d’insectes se situe à La Loupe ou nos criquets et vers de farine sont élevés
-                dans le respect du label Bio ainsi que des normes européennes. Les autres ingrédients de nos plats
-                proviennent tous de producteurs bio situés à proximité de nos restaurants.
-            </p>
+        <div class="row">
+
+            <div class="col-xs-12  col-md-8 col-md-push-4 text-justify">
+                <p>Bienvenue sur BugBurger, les premiers restaurants français vous offrant l’opportunité de déguster des
+                    repas à base d’insectes tout en vous assurant des plats savoureux et des produits bio de
+                    qualité.</p>
+                <p>Aussi positive pour l’environnement que bénéfique pour la santé, la consommation de viande à base
+                    d’insectes est pratiquée dans de nombreux pays depuis des centaines d’années. Une fois cuisinée et
+                    assemblée en forme de steak, cette viande exceptionnellement riche en protéines et pauvre en
+                    matières
+                    grasses possède un goût très proche de celle du boeuf. Ainsi, à quantité équivalente, un steak
+                    d’insecte
+                    possède 3x plus de protéines pour 2x moins de matières grasse qu’un steak de boeuf. </p>
+            </div>
+            <div class="col-xs-12 col-md-4 col-md-pull-8">
+                <img class="img-responsive" src="Images/AB-red.png" alt="Sigle_AB">
+            </div>
+
         </div>
+        <div class="row">
+
+            <div class="col-xs-12  col-md-8 text-justify">
+
+                <p>D’un point de vue environnemental, la production de 100g de viande de boeuf produit environ 2,81 kg
+                    de
+                    CO² alors que le même steak d’insecte ne produit que 0,45 Kg de CO² sans compter qu’il ne produit
+                    pas de
+                    méthane. La consommation d’insecte représente l’avenir de notre alimentation et de notre planète,
+                    c’est
+                    pourquoi BioBurger vous propose des Burgers d’insectes savoureux, mis au point par nos meilleurs
+                    chefs
+                    étoilés.</p>
+                <p>Notre site de production d’insectes se situe à La Loupe ou nos criquets et vers de farine sont élevés
+                    dans le respect du label Bio ainsi que des normes européennes. Les autres ingrédients de nos plats
+                    proviennent tous de producteurs bio situés à proximité de nos restaurants.
+                </p>
+            </div>
+            <div class="hidden-xs col-md-4">
+                <img class="img-responsive" src="Images/food-2499717_960_720.jpg" alt="Assiette d'insecte">
+            </div>
+        </div>
+
     </section>
     <hr>
     <section id="menu" class="row text-center">
@@ -161,6 +188,6 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script  type="text/javascript" src="js.js"></script>
+
 </body>
 </html>
