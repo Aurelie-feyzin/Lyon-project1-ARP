@@ -56,7 +56,7 @@ $list_burgers = include "list_burgers.php";
         </div>
         <div class="row">
 
-            <div class="col-xs-12  col-md-8 col-md-push-4 text-justify">
+            <div class="col-xs-12  col-md-9 col-md-push-3 text-justify">
                 <p>Bienvenue sur BugBurger, les premiers restaurants français vous offrant l’opportunité de déguster des
                     repas à base d’insectes tout en vous assurant des plats savoureux et des produits bio de
                     qualité.</p>
@@ -68,8 +68,8 @@ $list_burgers = include "list_burgers.php";
                     d’insecte
                     possède 3x plus de protéines pour 2x moins de matières grasse qu’un steak de boeuf. </p>
             </div>
-            <div class="col-xs-12 col-md-4 col-md-pull-8">
-                <img class="img-responsive" src="Images/AB-red.png" alt="Sigle_AB">
+            <div class="col-xs-12 col-md-3 col-md-pull-9 ">
+                <img class="img-responsive logoAB center-block" src="Images/AB-red.png" alt="Sigle_AB">
             </div>
 
         </div>
