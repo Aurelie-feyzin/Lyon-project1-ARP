@@ -1,4 +1,3 @@
-<header>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -15,14 +14,13 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="mainpage.php#concept">Concept <span class="sr-only">(current)</span></a></li>
-                    <li><a href="mainpage.php#menu">Menu</a></li>
-                    <li><a href="mainpage.php#nosrestaurants">Nos Restaurants</a></li>
-                    <li><a href="mainpage.php#notreequipe"></a></li>
-                    <li><a href="faq.php">FAQ</a></li>
-                    <li><a href="mainpage.php#contact">Contact</a></li>
+                    <li class="active"><a href="../index.php#concept">Concept <span class="sr-only">(current)</span></a></li>
+                    <li><a href="../index.php#menu">Menu</a></li>
+                    <li><a href="../index.php#nosrestaurants">Nos Restaurants</a></li>
+                    <li><a href="../index.php#notreequipe"></a></li>
+                    <li><a href="../faq.php">FAQ</a></li>
+                    <li><a href="../contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-</header>

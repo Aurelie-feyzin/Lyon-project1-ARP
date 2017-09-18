@@ -1,5 +1,5 @@
 <?php
-$list_burgers = include "list_burgers.php";
+$list_burgers = include "Parts/list_burgers.php";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -10,7 +10,9 @@ $list_burgers = include "list_burgers.php";
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<?php include "header.php"; ?>
+<header>
+    <?php include "Parts/header.php"; ?>
+</header>
 <div class="container">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -22,15 +24,15 @@ $list_burgers = include "list_burgers.php";
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-            <div class="item active">
+            <div class="burgerTop item active">
                 <img src="Images/83d982191977471168c6eea7b1645b6b.jpg" alt="Sandwich1">
             </div>
 
-            <div class="item">
+            <div class="burgerTop item">
                 <img src="Images/13743994_586334051549234_864750481_n.jpg" alt="Sandwich2">
             </div>
 
-            <div class="item">
+            <div class="burgerTop item">
                 <img src="Images/AAEAAQAAAAAAAAekAAAAJDE5ZjY0ZTAxLTU0ZWMtNGJiNi04MmY5LTc2Y2NhMDA5OGExZg.jpg"
                      alt="Sandwich3">
             </div>
@@ -51,7 +53,7 @@ $list_burgers = include "list_burgers.php";
     <section id="concept">
         <div class="row">
             <div class="col-xs-12 text-center">
-                <h2>Le concept</h2>
+                <h1>Les insectes comestibles</h1>
             </div>
         </div>
         <div class="row">
@@ -100,40 +102,31 @@ $list_burgers = include "list_burgers.php";
     <hr>
     <section id="menu" class="row text-center">
         <div class="col-xs-12">
-            <h2>Les Menus</h2>
+            <h1>Les Menus</h1>
             <p>Pour petits et grands, vous retrouverez ces 5 burgers dans tous nos restaurants. Accompagnés de frites ou
                 de Coleslaw.</p>
         </div>
         <?php foreach ($list_burgers as $key => $burger): ?>
-            <div class="col-xs-12 col-md-4 text-center">
-                <div class="img_menu_burger img-responsive center-block"
-                     alt="Sandwich"
-                     width="250" height="250">
-                    <h2 class="burger_name text-center"><?php echo $burger['burger_name']; ?></h2>
-                    <p class="ingredients text-center"><?php echo $burger['ingredients']; ?></p>
-                </div>
-            </div>
+            <?php include "Parts/burger_du_menu.php" ?>
         <?php endforeach; ?>
     </section>
     <hr>
-    <?php include "map.php"; ?>
+    <section id="nosrestaurants">
+        <?php include "Parts/map.php"; ?>
+    </section>
     <hr>
     <section id="notreequipe">
         <div class="row">
-
-
             <div class="col-xs-12 text-center">
-                <h2>L'équipe</h2>
+                <h1>L'équipe</h1>
                 <p>Créé depuis 3 ans , nos restaurants sont gérés par une équipe de passionnés qui ont l’ambition est de
                     rester proches de l’agriculture régionale toute en étant de qualité.
                 </p>
             </div>
         </div>
         <div class="row">
-
-
             <div class="col-xs-12 col-md-4 text-center">
-                <h3>Damien Armenté</h3>
+                <h2>Damien Armenté</h2>
                 <img src="Images/damien.jpg" class="img-circle img-responsive center-block" alt="Damien Armenté"
                      width="250" height="250">
                 <p class="text-justify">Chercheur au CNRS, spécialisé en bioproduction d’insectes depuis 12 ans. Il
@@ -143,8 +136,8 @@ $list_burgers = include "list_burgers.php";
 
             </div>
             <div class="col-xs-12 col-md-4 text-center">
-                <h3 class="text-center">Laurent Aubertin</h3>
-                <img src="Images/laurent-1.jpg" class="img-circle img-responsive center-block" alt="Sandwich"
+                <h2 class="text-center">Laurent Aubertin</h2>
+                <img src="Images/laurent-1.jpg" class="img-circle img-responsive center-block" alt="Laurent Aubertin"
                      width="250" height="250">
                 <p class="text-justify">Chef doublement étoilé. Précédemment chef dans le prestigieux Restaurant “Au bon
                     Bertin” a décidé de composer ses plats avec les insectes qu’il considère comme “une matière noble,
@@ -153,9 +146,9 @@ $list_burgers = include "list_burgers.php";
 
             </div>
             <div class="col-xs-12 col-md-4 text-center">
-                <h3>Julien Boyer</h3>
-                <img src="Images/Julien-Boyer-350x350.jpg" class="img-circle img-responsiv center-block" alt="Sandwich"
-                     width="250" height="250">
+                <h2>Julien Boyer</h2>
+                <img src="Images/Julien-Boyer-350x350.jpg" class="img-circle img-responsive center-block"
+                     alt="Julien Boyer" width="250" height="250">
                 <p class="text-justify">Serial Entrepreneur, après un séjour de 4 ans en Asie du sud-est, il décidé de
                     fédérer une équipe pour proposer une alimentation de qualité, inspirée des produits régionaux
                     Thaïlandais. Il créé le site de production d’insectes de La Loupe début 2015 puis le premier
@@ -164,16 +157,16 @@ $list_burgers = include "list_burgers.php";
         </div>
         <div class="row">
             <div class="col-xs-12 text-center">
-                <p>Contacter notre site de production pour toute information ou partenariat: <a href="mailto:#">prod@bugburger.com</a>
+                <p>Contacter notre site de production pour toute information ou partenariat:
+                    <a href="../contact.php">Contact</a>
                 </p>
             </div>
-
         </div>
-
-
     </section>
     <hr>
-    <?php include "footer.php"; ?>
+    <footer>
+        <?php include "Parts/footer.php"; ?>
+    </footer>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

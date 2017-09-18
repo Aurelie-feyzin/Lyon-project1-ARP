@@ -17,10 +17,15 @@
 .logoAB {
     max-height : 200px ;
     overflow: hidden;
-
 }
-
-
+.burgerTop {
+    max-height: 400px;
+}
+@media screen and (max-width: 480px) {
+    .burgerTop {
+        max-height: 180px;
+    }
+}
 
 
 .img_menu_burger:hover {
