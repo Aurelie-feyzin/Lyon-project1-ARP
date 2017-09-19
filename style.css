@@ -21,24 +21,26 @@ body {
 }
 
 .logoAB {
-    max-height : 200px ;
+    max-height: 200px;
     overflow: hidden;
 }
+
 .burgerTop {
     max-height: 400px;
 }
+
 @media screen and (max-width: 480px) {
     .burgerTop {
         max-height: 180px;
     }
 }
 
-
 .img_menu_burger:hover {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("Images/burger_menu-ConvertImage.jpg");
     background-size: contain;
 }
-.burger_highlighted{
+
+.burger_highlighted {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("Images/burger_menu-ConvertImage.jpg");
     background-size: contain;
 }
@@ -50,7 +52,6 @@ body {
 .img_menu_burger:hover > .ingredients {
     display: block;
 }
-
 
 .burger_name {
     display: block;
