@@ -38,6 +38,10 @@ body {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("Images/burger_menu-ConvertImage.jpg");
     background-size: contain;
 }
+.burger_highlighted{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("Images/burger_menu-ConvertImage.jpg");
+    background-size: contain;
+}
 
 .img_menu_burger:hover > .burger_name {
     display: none;
@@ -46,6 +50,7 @@ body {
 .img_menu_burger:hover > .ingredients {
     display: block;
 }
+
 
 .burger_name {
     display: block;
