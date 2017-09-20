@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title> BugBurger : contact </title>
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -18,9 +19,8 @@
         <h1> Contactez - nous</h1>
     </div>
     <div class="row">
-        <p>Une question dont vous ne trouvez pas la réponse dans notre FAQ ?</p>
-        <p>Envie de nouer un partenariat ?</p>
-        <p>N'hesitez pas à poser toutes vos questions à notre équipe</p>
+        <h2>Une question dont vous ne trouvez pas la réponse dans notre FAQ ?</h2>
+        <p>Envie de nouer un <partenariat></partenariat>: N'hesitez pas à poser toutes vos questions à notre équipe</p>
     </div>
 </div>
 <div class="container">

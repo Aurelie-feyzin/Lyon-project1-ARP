@@ -2,8 +2,37 @@ body {
     background-image: url('../Images/fond1.jpg');
     background-attachment: fixed;
     background-size: cover;
+    color: white;
+    font-family: 'Assistant', sans-serif;
 }
-
+p, li{
+    font-size: 1.5em;
+}
+h1
+{
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+}
+li
+{
+    font-weight: bold;
+}
+a
+{
+font-weight: bold;
+}
+.question
+{
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(rgba(100, 100, 100, 0.5), rgba(0, 0, 0, 1));
+    border-radius: 10px;
+}
+.container, .jumbotron  {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background: -webkit-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5));
+    background: -moz-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5));
+}
 .img_menu_burger {
     overflow: hidden;
     -webkit-border-radius: 250px;
@@ -29,8 +58,6 @@ body {
     max-height: 400px;
 }
 
-
-
 .img_menu_burger:hover {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("Images/burger_menu-ConvertImage.jpg");
     background-size: contain;
@@ -47,15 +74,18 @@ body {
 
 .img_menu_burger:hover > .ingredients {
     display: block;
+    color: black;
 }
 
 .burger_name {
     display: block;
     color: white;
+    font-weight: bold;
 }
 
 .ingredients {
     display: none;
+    font-style: italic;
 }
 .response{
     display: none;

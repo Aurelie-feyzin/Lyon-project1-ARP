@@ -1,6 +1,6 @@
 <div class="row text-center">
     <div class="col-xs-12">
-        <h2>Nos Restaurants</h2>
+        <h1>Nos Restaurants</h1>
     </div>
 
 </div>

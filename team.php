@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Bug Burger : noter équipe</title>
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
 </head>
 <body>
 <header>

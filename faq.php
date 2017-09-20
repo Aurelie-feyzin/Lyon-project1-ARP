@@ -5,6 +5,7 @@
     <title>BugBurger : FAQ </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -17,9 +18,9 @@
     </div>
     <div class="row text-align-left">
         <div class="col-xs-12 question ">
-            <button class="btn btn-default btn-lg " type="button">
+            <h2>
                 Je suis allergique aux crustacés, puis-je manger vos produits?
-            </button>
+            </h2>
             <p class="response">Attention les insectes contiennent de la “chitine” dans leur carapace qui est l’élément
                 déclencheur d’allergie chez les crustacés. Ne mangez pas d’insectes si vous êtes allergiques aux
                 crustacés.
@@ -29,9 +30,9 @@
 
     <div class="row text-align-left">
         <div class="col-xs-12 question">
-            <button class="btn btn-default btn-lg" type="button">
+            <h2>
                 Je suis allergique aux crustacés, que puis-je manger chez vous?
-            </button>
+            </h2>
             <p class="response">Pour partager un moment de dégustation avec vos amis, nous pouvons proposer de remplacer
                 no steaks
                 d’insectes par du Tofu.
@@ -40,9 +41,9 @@
     </div>
     <div class="row text-align-left> ">
         <div class="col-xs-12 question">
-            <button class="btn btn-default btn-lg" type="button">
+            <h2>
                 Vos steaks d’insectes sont-ils gluants?
-            </button>
+            </h2>
             <p class="response">Pas du tout, nous assurons que la texture et le goût sont très proches de viandes dites
                 “standardes”.
                 Les steaks de criquets ressemblent à de la viande de boeuf et les steaks aux vers de farine
@@ -53,9 +54,9 @@
 
     <div class="row text-align-left> ">
         <div class="col-xs-12 question">
-            <button class="btn btn-default btn-lg " type="button">
+            <h2>
                 Est ce que je peux modifier le contenu d’un Burger si je le souhaite?
-            </button>
+            </h2>
             <p class="response">Bien sûr, en revanche nos recettes sont très réfléchies et nous ne pouvons que vous
                 conseiller les
                 recettes proposées..
@@ -64,9 +65,9 @@
     </div>
     <div class="row text-align-left> ">
         <div class="col-xs-12 question">
-            <button class="btn btn-default btn-lg" type="button">
+            <h2>
                 Vos produits sont ils vraiment régionaux?
-            </button>
+            </h2>
             <p class="response">A l’exception de nos insectes produits à La Loupe, tous nos produits proviennent
                 d’agriculteurs à
                 moins de 30 km de nos restaurants. La provenance est affichée dans chacunes de nos enseignes..

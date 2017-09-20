@@ -8,6 +8,7 @@ $list_burgers = include "Parts/list_burgers.php";
     <title>BugBurgers</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
 </head>
 <body>
 <header>
