@@ -1,3 +1,8 @@
+<?php
+session_start();
+?>
+
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -24,39 +29,57 @@
     </div>
 </div>
 <div class="container">
-    <form action="" method="post" role="form" class="form-horizontal">
+    <div class="alert-danger">
+        <?php if (array_key_exists('errors', $_SESSION)): ?>
+            <p>Alerte : erreur dans le formulaire</p>
+            <?= implode('<br>', $_SESSION['errors']); ?>
+        <?php endif; ?>
+    </div>
+<div class="row">
+    <form action="validateForms.php" method="post" role="form" class="form-horizontal">
         <div class="form-group">
             <label for="firstName">Prénom : </label>
-            <input type="text" class="form-control" name="firstName" id="firstName" placeholder="ex: Michel" required>
+            <input type="text" class="form-control" name="firstName" id="firstName" placeholder="ex: Michel" required
+                   value="<?php echo isset($_SESSION['errors']['firstName']) ?  : "" ; $_SESSION['inputs']['firstName'] ?>">
         </div>
         <div class="form-group">
             <label for="lastName">Nom : </label>
-            <input type="text" class="form-control" name="lastName" id="firstName" placeholder="ex: Dupont" required>
+            <input type="text" class="form-control" name="lastName" id="firstName" placeholder="ex: Dupont" required
+                   value="<?php echo isset($_SESSION['errors']['lastName']) ?  : "" ; $_SESSION['inputs']['lastName'] ?>">
         </div>
         <div class="form-group">
             <label for="email">e-mail : </label>
             <div class="input-group">
                 <span class="input-group-addon">@</span>
                 <input type="email" class="form-control input-group" name="email" id="email"
-                       placeholder="ex: michel.dupont@gmail.com" required>
+                       placeholder="ex: michel.dupont@gmail.com" required
+                       value="<?php echo isset($_SESSION['errors']['email']) ?  : ""; $_SESSION['inputs']['email'] ?>">
             </div>
         </div>
         <div class="form-group">
             <label for="topic">Sujet : </label>
-            <input type="text" class="form-control" name="topic" id="topic" placeholder="" required>
+            <input type="text" class="form-control" name="topic" id="topic" placeholder="" required
+                   value="<?php echo isset($_SESSION['inputs']['topic']) ? $_SESSION['inputs']['topic'] : ""; ?>">
+
         </div>
         <div class="form-group">
-            <label for="OurQuestion">Votre question : </label>
-            <textarea class="form-control" rows="3" name="OurQuestion" id="OurQuestion" placeholder=""
-                      required></textarea>
+            <label for="message">Votre question : </label>
+            <textarea class="form-control" rows="3" name="message" id="message" placeholder="" required>
+                <?php echo isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message'] : ""; ?></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Envoyer</button>
     </form>
+</div>
     <hr>
     <footer>
         <?php include "Parts/footer.php"; ?>
     </footer>
 </div>
-
+<?php print_r($_SESSION); ?>
 </body>
 </html>
+
+<?php
+unset($_SESSION['inputs']);
+unset($_SESSION['success']);
+unset($_SESSION['errors']);
