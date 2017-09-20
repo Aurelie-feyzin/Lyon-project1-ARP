@@ -29,11 +29,7 @@ body {
     max-height: 400px;
 }
 
-@media screen and (max-width: 480px) {
-    .burgerTop {
-        max-height: 180px;
-    }
-}
+
 
 .img_menu_burger:hover {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("Images/burger_menu-ConvertImage.jpg");
@@ -60,4 +56,13 @@ body {
 
 .ingredients {
     display: none;
+}
+.response{
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .burgerTop {
+        max-height: 180px;
+    }
 }

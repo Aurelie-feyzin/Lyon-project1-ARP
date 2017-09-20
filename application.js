@@ -6,4 +6,9 @@ $(document).ready(function () {
             $(this).addClass('burger_highlighted');
         });
     });
+    $(function () {
+        $('.question').on('click', function () {
+            $(this).find('.response:last-child').toggle(500);
+        });
+    });
 });
