@@ -60,6 +60,13 @@ body {
 .response{
     display: none;
 }
+ #city_map iframe{
+     pointer-events: none;
+
+}
+#city_map iframe.clicked {
+    pointer-events: auto;
+}
 
 @media screen and (max-width: 480px) {
     .burgerTop {
