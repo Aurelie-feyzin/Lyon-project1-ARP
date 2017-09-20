@@ -40,12 +40,12 @@ session_start();
         <div class="form-group">
             <label for="firstName">Prénom : </label>
             <input type="text" class="form-control" name="firstName" id="firstName" placeholder="ex: Michel" required
-                   value="<?php echo isset($_SESSION['errors']['firstName']) ?  : "" ; $_SESSION['inputs']['firstName'] ?>">
+                   value="<?php echo isset($_SESSION['errors']['firstName']) ? "" : $_SESSION['inputs']['firstName'] ;  ?>">
         </div>
         <div class="form-group">
             <label for="lastName">Nom : </label>
-            <input type="text" class="form-control" name="lastName" id="firstName" placeholder="ex: Dupont" required
-                   value="<?php echo isset($_SESSION['errors']['lastName']) ?  : "" ; $_SESSION['inputs']['lastName'] ?>">
+            <input type="text" class="form-control" name="lastName" id="lastName" placeholder="ex: Dupont" required
+                   value="<?php echo isset($_SESSION['errors']['lastName']) ? "" : $_SESSION['inputs']['lastName']; ?>">
         </div>
         <div class="form-group">
             <label for="email">e-mail : </label>
@@ -53,7 +53,7 @@ session_start();
                 <span class="input-group-addon">@</span>
                 <input type="email" class="form-control input-group" name="email" id="email"
                        placeholder="ex: michel.dupont@gmail.com" required
-                       value="<?php echo isset($_SESSION['errors']['email']) ?  : ""; $_SESSION['inputs']['email'] ?>">
+                       value="<?php echo isset($_SESSION['errors']['email']) ? "" : $_SESSION['inputs']['email']; ?>">
             </div>
         </div>
         <div class="form-group">
