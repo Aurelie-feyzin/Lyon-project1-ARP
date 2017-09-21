@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>BugBurger : FAQ </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
-    <link rel="icon" type="image/png" href="Images/favicon3.ico" />
+    <link rel="icon" type="image/png" href="Images/favicon3.ico"/>
 </head>
 <body>
 <header>
@@ -28,7 +28,6 @@
             </p>
         </div>
     </div>
-
     <div class="row text-align-left text-justify">
         <div class="col-xs-12 question">
             <h3>
@@ -52,7 +51,6 @@
             </p>
         </div>
     </div>
-
     <div class="row text-align-left text-justify> ">
         <div class="col-xs-12 question">
             <h3>
@@ -75,11 +73,10 @@
             </p>
         </div>
     </div>
-
-<hr>
-<footer>
-    <?php include "Parts/footer.php"; ?>
-</footer>
+    <hr>
+    <footer>
+        <?php include "Parts/footer.php"; ?>
+    </footer>
 </div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -88,6 +85,6 @@
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
 </script>
-<script src="application.js"></script>
+<script src="Applications/application.js"></script>
 </body>
 </html>

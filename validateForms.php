@@ -4,11 +4,11 @@ session_start();
 $errors = array();
 
 
-if (!array_key_exists('firstName', $_POST) || $_POST['firstName'] == '' || is_numeric($_POST['firstName'] )) {// on verifie l'existence du champ et d'un contenu
+if (!array_key_exists('firstName', $_POST) || $_POST['firstName'] == '' || is_numeric($_POST['firstName'])) {// on verifie l'existence du champ et d'un contenu
     $errors ['firstName'] = "vous n'avez pas renseigné votre prénom";
 }
 
-if (!array_key_exists('lastName', $_POST) || $_POST['lastName'] == '' || is_numeric($_POST['lastName'] )) {// on verifie l'existence du champ et d'un contenu
+if (!array_key_exists('lastName', $_POST) || $_POST['lastName'] == '' || is_numeric($_POST['lastName'])) {// on verifie l'existence du champ et d'un contenu
     $errors ['lastName'] = "vous n'avez pas renseigné votre nom";
 }
 

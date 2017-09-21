@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>BugBurgers</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
     <link rel="icon" type="image/png" href="Images/favicon3.ico"/>
 <body>
@@ -171,6 +171,6 @@
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
 </script>
-<script src="application.js"></script>
+<script src="Applications/application.js"></script>
 </body>
 </html>

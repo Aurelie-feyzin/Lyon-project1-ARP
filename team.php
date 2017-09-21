@@ -1,7 +1,6 @@
 <?php
 $list_peoples = include "Parts/list_team.php";
 ?>
-
 <!doctype html>
 <html lang="fr">
 <head>
@@ -10,10 +9,10 @@ $list_peoples = include "Parts/list_team.php";
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/style.css">
     <title>Bug Burger : noter équipe</title>
     <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
-    <link rel="icon" type="image/png" href="Images/favicon3.ico" />
+    <link rel="icon" type="image/png" href="Images/favicon3.ico"/>
 </head>
 <body>
 <header>
@@ -28,7 +27,6 @@ $list_peoples = include "Parts/list_team.php";
             <?php include "Parts/describe_team.php" ?>
         <?php endforeach; ?>
     </div>
-
     <div class="row contactUs">
         <div class="col-xs-12 text-center">
             <p>Contacter notre site de production pour toute information ou partenariat:

@@ -7,7 +7,7 @@ $list_burgers = include "Parts/list_burgers.php";
     <meta charset="UTF-8">
     <title>BugBurgers</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
     <link rel="icon" type="image/png" href="Images/favicon3.ico"/>
 </head>
@@ -27,7 +27,6 @@ $list_burgers = include "Parts/list_burgers.php";
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
-
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="burgerTop item active">
@@ -43,7 +42,6 @@ $list_burgers = include "Parts/list_burgers.php";
                      alt="Sandwich3">
             </div>
         </div>
-
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
@@ -65,7 +63,6 @@ $list_burgers = include "Parts/list_burgers.php";
             </div>
         </div>
         <div class="row">
-
             <div class="col-xs-12  col-md-9 col-md-push-3 text-justify">
                 <p>Bienvenue sur <strong>BugBurger</strong>, les premiers restaurants français vous offrant
                     l’opportunité de déguster des
@@ -85,13 +82,10 @@ $list_burgers = include "Parts/list_burgers.php";
             <div class="col-xs-12 col-md-3 col-md-pull-9 ">
                 <img class="img-responsive logoAB center-block" src="Images/AB-red.png" alt="Sigle_AB">
             </div>
-
         </div>
         <br>
         <div class="row">
-
             <div class="col-xs-12  col-md-8 text-justify">
-
                 <p>D’un point de vue environnemental, la production de 100g de viande de boeuf produit environ 2,81 kg
                     de
                     CO² alors que le même steak d’insecte ne produit que 0,45 Kg de CO² sans compter qu’il ne produit
@@ -111,7 +105,6 @@ $list_burgers = include "Parts/list_burgers.php";
                 <img class="img-responsive imgAssiette " src="Images/food-2499717_960_720.jpg" alt="Assiette d'insecte">
             </div>
         </div>
-
     </section>
     <hr>
     <section id="menu" class="row text-center">
@@ -128,7 +121,6 @@ $list_burgers = include "Parts/list_burgers.php";
     <section id="nosrestaurants">
         <?php include "Parts/map.php"; ?>
     </section>
-
     <hr>
     <footer>
         <?php include "Parts/footer.php"; ?>
@@ -141,6 +133,6 @@ $list_burgers = include "Parts/list_burgers.php";
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
 </script>
-<script src="application.js"></script>
+<script src="Applications/application.js"></script>
 </body>
 </html>
