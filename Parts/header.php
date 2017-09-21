@@ -14,10 +14,10 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="../index.php#concept">Concept <span class="sr-only">(current)</span></a></li>
+                    <li class=""><a href="../index.php#concept">Concept</a></li>
                     <li><a class="scrollTo" href="../index.php#menu">Menu</a></li>
                     <li><a class="scrollTo" href="../index.php#nosrestaurants">Nos Restaurants</a></li>
-                    <li><a  href="../team.php"></a></li>
+                    <li><a  href="../team.php">Notre équipe</a></li>
                     <li><a  href="../faq.php">FAQ</a></li>
                     <li><a  href="../forms.php">Contact</a></li>
                 </ul>
