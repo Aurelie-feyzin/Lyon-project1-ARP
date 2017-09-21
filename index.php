@@ -9,12 +9,14 @@ $list_burgers = include "Parts/list_burgers.php";
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Images/favicon3.ico" />
 </head>
 <body>
 <header>
     <?php include "Parts/header.php"; ?>
 </header>
-<div class="container">
+<div class="spaceUnder"></div>
+<div class="container" id="bugSlider">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -26,15 +28,15 @@ $list_burgers = include "Parts/list_burgers.php";
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="burgerTop item active">
-                <img src="Images/83d982191977471168c6eea7b1645b6b.jpg" alt="Sandwich1">
+                <img src="Images/Composition1.1.png" alt="Sandwich1">
             </div>
 
             <div class="burgerTop item">
-                <img src="Images/13743994_586334051549234_864750481_n.jpg" alt="Sandwich2">
+                <img src="Images/Composition2.2.png" alt="Sandwich2">
             </div>
 
             <div class="burgerTop item">
-                <img src="Images/AAEAAQAAAAAAAAekAAAAJDE5ZjY0ZTAxLTU0ZWMtNGJiNi04MmY5LTc2Y2NhMDA5OGExZg.jpg"
+                <img src="Images/Composition3.png"
                      alt="Sandwich3">
             </div>
         </div>
@@ -60,14 +62,14 @@ $list_burgers = include "Parts/list_burgers.php";
         <div class="row">
 
             <div class="col-xs-12  col-md-9 col-md-push-3 text-justify">
-                <p>Bienvenue sur BugBurger, les premiers restaurants français vous offrant l’opportunité de déguster des
-                    repas à base d’insectes tout en vous assurant des plats savoureux et des produits bio de
+                <p>Bienvenue sur <strong>BugBurger</strong>, les premiers restaurants français vous offrant l’opportunité de déguster des
+                    repas à base d’<strong>insectes</strong> tout en vous assurant des plats savoureux et des produits bio de
                     qualité.</p>
-                <p>Aussi positive pour l’environnement que bénéfique pour la santé, la consommation de viande à base
+                <p>Aussi positive pour l’<strong>environnement</strong> que bénéfique pour la santé, la consommation de viande à base
                     d’insectes est pratiquée dans de nombreux pays depuis des centaines d’années. Une fois cuisinée et
-                    assemblée en forme de steak, cette viande exceptionnellement riche en protéines et pauvre en
+                    assemblée en forme de steak, cette viande exceptionnellement <strong>riche en protéines et pauvre en
                     matières
-                    grasses possède un goût très proche de celle du boeuf. Ainsi, à quantité équivalente, un steak
+                    grasses</strong> possède un goût très proche de celle du boeuf. Ainsi, à quantité équivalente, un steak
                     d’insecte
                     possède 3x plus de protéines pour 2x moins de matières grasse qu’un steak de boeuf. </p>
             </div>
@@ -84,7 +86,7 @@ $list_burgers = include "Parts/list_burgers.php";
                     de
                     CO² alors que le même steak d’insecte ne produit que 0,45 Kg de CO² sans compter qu’il ne produit
                     pas de
-                    méthane. La consommation d’insecte représente l’avenir de notre alimentation et de notre planète,
+                    méthane. La consommation d’insecte représente <strong>l’avenir de notre alimentation et de notre planète</strong>,
                     c’est
                     pourquoi BioBurger vous propose des Burgers d’insectes savoureux, mis au point par nos meilleurs
                     chefs

@@ -14,6 +14,7 @@ session_start();
     <link rel="stylesheet" href="style.css">
     <title>BugBurger : contact</title>
     <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Images/favicon3.ico" />
 </head>
 <body>
 <header>

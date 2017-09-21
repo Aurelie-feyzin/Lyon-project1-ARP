@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.php">BugBurger</a>
+                <a class="navbar-brand" href="../index.php"><img src="Images/Logo_BugBurger.png" id="LogoBarNav"></a>
             </div>
 
 

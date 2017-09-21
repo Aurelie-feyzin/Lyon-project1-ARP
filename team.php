@@ -13,6 +13,7 @@ $list_peoples = include "Parts/list_team.php";
     <link rel="stylesheet" href="style.css">
     <title>Bug Burger : noter équipe</title>
     <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Images/favicon3.ico" />
 </head>
 <body>
 <header>
