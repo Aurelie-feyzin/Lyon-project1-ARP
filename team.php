@@ -28,10 +28,11 @@ $list_peoples = include "Parts/list_team.php";
             <?php include "Parts/describe_team.php" ?>
         <?php endforeach; ?>
     </div>
-    <div class="row">
+
+    <div class="row contactUs">
         <div class="col-xs-12 text-center">
             <p>Contacter notre site de production pour toute information ou partenariat:
-                <a href="../contact.php">Contact</a>
+                <a href="../forms.php">Contact</a>
             </p>
         </div>
     </div>

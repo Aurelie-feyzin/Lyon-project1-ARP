@@ -16,8 +16,8 @@
                 <ul class="nav navbar-nav">
                     <li class=""><a href="../index.php#concept">Concept</a></li>
                     <li><a class="scrollTo" href="../index.php#menu">Menu</a></li>
-                    <li><a class="scrollTo" href="../index.php#nosrestaurants">Nos Restaurants</a></li>
-                    <li><a  href="../team.php">Notre équipe</a></li>
+                    <li><a class="scrollTo" href="../index.php#nosrestaurants">Restaurants</a></li>
+                    <li><a  href="../team.php">Equipe</a></li>
                     <li><a  href="../faq.php">FAQ</a></li>
                     <li><a  href="../forms.php">Contact</a></li>
                 </ul>

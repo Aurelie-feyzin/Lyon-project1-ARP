@@ -9,14 +9,17 @@ $list_burgers = include "Parts/list_burgers.php";
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Assistant:300|Slabo+27px" rel="stylesheet">
-    <link rel="icon" type="image/png" href="Images/favicon3.ico" />
+    <link rel="icon" type="image/png" href="Images/favicon3.ico"/>
 </head>
 <body>
 <header>
     <?php include "Parts/header.php"; ?>
 </header>
 <div class="spaceUnder"></div>
-<div class="container" id="bugSlider">
+<div class="smallLogo visible-sm visible-xs">
+    <img src="Images/Logo_BugBurger.png" class="center-block img-responsive" alt="Logo">
+</div>
+<div class="container hidden-sm hidden-xs" id="bugSlider">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -54,6 +57,8 @@ $list_burgers = include "Parts/list_burgers.php";
 </div>
 <div class="container">
     <section id="concept">
+        <br>
+        <hr>
         <div class="row">
             <div class="col-xs-12 text-center">
                 <h1>Les insectes comestibles</h1>
@@ -62,14 +67,18 @@ $list_burgers = include "Parts/list_burgers.php";
         <div class="row">
 
             <div class="col-xs-12  col-md-9 col-md-push-3 text-justify">
-                <p>Bienvenue sur <strong>BugBurger</strong>, les premiers restaurants français vous offrant l’opportunité de déguster des
-                    repas à base d’<strong>insectes</strong> tout en vous assurant des plats savoureux et des produits bio de
+                <p>Bienvenue sur <strong>BugBurger</strong>, les premiers restaurants français vous offrant
+                    l’opportunité de déguster des
+                    repas à base d’<strong>insectes</strong> tout en vous assurant des plats savoureux et des produits
+                    bio de
                     qualité.</p>
-                <p>Aussi positive pour l’<strong>environnement</strong> que bénéfique pour la santé, la consommation de viande à base
+                <p>Aussi positive pour l’<strong>environnement</strong> que bénéfique pour la santé, la consommation de
+                    viande à base
                     d’insectes est pratiquée dans de nombreux pays depuis des centaines d’années. Une fois cuisinée et
                     assemblée en forme de steak, cette viande exceptionnellement <strong>riche en protéines et pauvre en
-                    matières
-                    grasses</strong> possède un goût très proche de celle du boeuf. Ainsi, à quantité équivalente, un steak
+                        matières
+                        grasses</strong> possède un goût très proche de celle du boeuf. Ainsi, à quantité équivalente,
+                    un steak
                     d’insecte
                     possède 3x plus de protéines pour 2x moins de matières grasse qu’un steak de boeuf. </p>
             </div>
@@ -78,6 +87,7 @@ $list_burgers = include "Parts/list_burgers.php";
             </div>
 
         </div>
+        <br>
         <div class="row">
 
             <div class="col-xs-12  col-md-8 text-justify">
@@ -86,7 +96,8 @@ $list_burgers = include "Parts/list_burgers.php";
                     de
                     CO² alors que le même steak d’insecte ne produit que 0,45 Kg de CO² sans compter qu’il ne produit
                     pas de
-                    méthane. La consommation d’insecte représente <strong>l’avenir de notre alimentation et de notre planète</strong>,
+                    méthane. La consommation d’insecte représente <strong>l’avenir de notre alimentation et de notre
+                        planète</strong>,
                     c’est
                     pourquoi BioBurger vous propose des Burgers d’insectes savoureux, mis au point par nos meilleurs
                     chefs
@@ -96,8 +107,8 @@ $list_burgers = include "Parts/list_burgers.php";
                     proviennent tous de producteurs bio situés à proximité de nos restaurants.
                 </p>
             </div>
-            <div class="hidden-xs col-md-4">
-                <img class="img-responsive" src="Images/food-2499717_960_720.jpg" alt="Assiette d'insecte">
+            <div class="hidden-xs col-md-4 assiette">
+                <img class="img-responsive imgAssiette " src="Images/food-2499717_960_720.jpg" alt="Assiette d'insecte">
             </div>
         </div>
 
