@@ -1,6 +1,6 @@
     <div class="row text-center">
         <div class="col-xs-4">
-            <p><a href="../contact.php">Contact</a></p>
+            <p><a href="../forms.php">Contact</a></p>
         </div>
         <div class="col-xs-4">
             <p><a href="../faq.php">FAQ</a></p>
