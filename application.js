@@ -12,4 +12,14 @@ $(document).ready(function () {
             $(this).find('.response:last-child').toggle(500);
         });
     });
+
+//Oblige à cliquer pour activer le zoom de la carte
+    $(function () {
+        $('#city_map').click(function () {
+            $(this).find('iframe').addClass('clicked')
+        }).mouseleave(function () {
+            $(this).find('iframe').removeClass('clicked')
+        });
+    });
+
 });
