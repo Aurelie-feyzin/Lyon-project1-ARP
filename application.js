@@ -1,4 +1,5 @@
 $(document).ready(function () {
+   //Show Burgers ingredients
     $(function () {
         $('.img_menu_burger').on('click', function () {
             $(this).find('h2:first').css({'display': 'none'});
@@ -7,6 +8,8 @@ $(document).ready(function () {
             $(this).addClass('burger_highlighted');
         });
     });
+
+    //Display FAS answers
     $(function () {
         $('.question').on('click', function () {
             $(this).find('.response:last-child').toggle(500);
